@@ -8,20 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		393B142320F61371009ED9B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393B142220F61371009ED9B0 /* AppDelegate.swift */; };
-		393B142520F61371009ED9B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393B142420F61371009ED9B0 /* ViewController.swift */; };
+		393B142520F61371009ED9B0 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393B142420F61371009ED9B0 /* MainViewController.swift */; };
 		393B142820F61371009ED9B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 393B142620F61371009ED9B0 /* Main.storyboard */; };
 		393B142A20F61371009ED9B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 393B142920F61371009ED9B0 /* Assets.xcassets */; };
 		393B142D20F61371009ED9B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 393B142B20F61371009ED9B0 /* LaunchScreen.storyboard */; };
+		393B143620F614DF009ED9B0 /* UIColor+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393B143520F614DF009ED9B0 /* UIColor+Additions.swift */; };
+		393B143B20F61524009ED9B0 /* NSObject+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393B143A20F61524009ED9B0 /* NSObject+Additions.swift */; };
+		393B143D20F61537009ED9B0 /* UIView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393B143C20F61537009ED9B0 /* UIView+Additions.swift */; };
+		393B143F20F61555009ED9B0 /* UINib+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393B143E20F61555009ED9B0 /* UINib+Additions.swift */; };
+		393B144520F615C1009ED9B0 /* NotificationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 393B144420F615C1009ED9B0 /* NotificationView.xib */; };
+		393B144720F615CA009ED9B0 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393B144620F615CA009ED9B0 /* NotificationView.swift */; };
+		393B144920F62553009ED9B0 /* String+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393B144820F62553009ED9B0 /* String+Additions.swift */; };
+		393B144B20F638D4009ED9B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393B144A20F638D4009ED9B0 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		393B141F20F61370009ED9B0 /* notification-amondo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "notification-amondo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		393B142220F61371009ED9B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		393B142420F61371009ED9B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		393B142420F61371009ED9B0 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		393B142720F61371009ED9B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		393B142920F61371009ED9B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		393B142C20F61371009ED9B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		393B142E20F61371009ED9B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		393B143520F614DF009ED9B0 /* UIColor+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Additions.swift"; sourceTree = "<group>"; };
+		393B143A20F61524009ED9B0 /* NSObject+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+Additions.swift"; sourceTree = "<group>"; };
+		393B143C20F61537009ED9B0 /* UIView+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Additions.swift"; sourceTree = "<group>"; };
+		393B143E20F61555009ED9B0 /* UINib+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINib+Additions.swift"; sourceTree = "<group>"; };
+		393B144420F615C1009ED9B0 /* NotificationView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotificationView.xib; sourceTree = "<group>"; };
+		393B144620F615CA009ED9B0 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		393B144820F62553009ED9B0 /* String+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Additions.swift"; sourceTree = "<group>"; };
+		393B144A20F638D4009ED9B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +70,86 @@
 		393B142120F61370009ED9B0 /* notification-amondo */ = {
 			isa = PBXGroup;
 			children = (
-				393B142220F61371009ED9B0 /* AppDelegate.swift */,
-				393B142420F61371009ED9B0 /* ViewController.swift */,
-				393B142620F61371009ED9B0 /* Main.storyboard */,
+				393B143420F614C6009ED9B0 /* Appearance */,
+				393B143720F614E4009ED9B0 /* Additions */,
+				393B144120F61597009ED9B0 /* Classes */,
+				393B144020F61587009ED9B0 /* ViewControllers */,
 				393B142920F61371009ED9B0 /* Assets.xcassets */,
-				393B142B20F61371009ED9B0 /* LaunchScreen.storyboard */,
+				393B142220F61371009ED9B0 /* AppDelegate.swift */,
 				393B142E20F61371009ED9B0 /* Info.plist */,
+				393B142B20F61371009ED9B0 /* LaunchScreen.storyboard */,
+				393B142620F61371009ED9B0 /* Main.storyboard */,
 			);
 			path = "notification-amondo";
+			sourceTree = "<group>";
+		};
+		393B143420F614C6009ED9B0 /* Appearance */ = {
+			isa = PBXGroup;
+			children = (
+				393B143520F614DF009ED9B0 /* UIColor+Additions.swift */,
+			);
+			path = Appearance;
+			sourceTree = "<group>";
+		};
+		393B143720F614E4009ED9B0 /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				393B143820F614EF009ED9B0 /* Foundation */,
+				393B143920F614F4009ED9B0 /* UIKit */,
+			);
+			path = Additions;
+			sourceTree = "<group>";
+		};
+		393B143820F614EF009ED9B0 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				393B143A20F61524009ED9B0 /* NSObject+Additions.swift */,
+				393B144820F62553009ED9B0 /* String+Additions.swift */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		393B143920F614F4009ED9B0 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				393B143C20F61537009ED9B0 /* UIView+Additions.swift */,
+				393B143E20F61555009ED9B0 /* UINib+Additions.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		393B144020F61587009ED9B0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				393B142420F61371009ED9B0 /* MainViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		393B144120F61597009ED9B0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				393B144220F615A4009ED9B0 /* UIKit */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		393B144220F615A4009ED9B0 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				393B144320F615AF009ED9B0 /* NotificationView */,
+				393B144A20F638D4009ED9B0 /* ViewController.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		393B144320F615AF009ED9B0 /* NotificationView */ = {
+			isa = PBXGroup;
+			children = (
+				393B144420F615C1009ED9B0 /* NotificationView.xib */,
+				393B144620F615CA009ED9B0 /* NotificationView.swift */,
+			);
+			path = NotificationView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +213,7 @@
 				393B142D20F61371009ED9B0 /* LaunchScreen.storyboard in Resources */,
 				393B142A20F61371009ED9B0 /* Assets.xcassets in Resources */,
 				393B142820F61371009ED9B0 /* Main.storyboard in Resources */,
+				393B144520F615C1009ED9B0 /* NotificationView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +224,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				393B142520F61371009ED9B0 /* ViewController.swift in Sources */,
+				393B143D20F61537009ED9B0 /* UIView+Additions.swift in Sources */,
+				393B142520F61371009ED9B0 /* MainViewController.swift in Sources */,
+				393B144920F62553009ED9B0 /* String+Additions.swift in Sources */,
+				393B144B20F638D4009ED9B0 /* ViewController.swift in Sources */,
+				393B144720F615CA009ED9B0 /* NotificationView.swift in Sources */,
+				393B143B20F61524009ED9B0 /* NSObject+Additions.swift in Sources */,
 				393B142320F61371009ED9B0 /* AppDelegate.swift in Sources */,
+				393B143620F614DF009ED9B0 /* UIColor+Additions.swift in Sources */,
+				393B143F20F61555009ED9B0 /* UINib+Additions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +379,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LW8Q7B9V3V;
 				INFOPLIST_FILE = "notification-amondo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -290,7 +387,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "frolapps.notification-amondo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -301,6 +398,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LW8Q7B9V3V;
 				INFOPLIST_FILE = "notification-amondo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,7 +406,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "frolapps.notification-amondo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
